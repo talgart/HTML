@@ -102,7 +102,8 @@ li.clr			{clear:both; float:none !important; width:auto !important; height:auto 
 .display-none	{display:none;}
 .bg-blue		{ background:#f3f5fa;}
 .bg-white		{ background:#fff !important;}
-.advisor-overlay{ position:absolute; left:0; right:0; top:0; bottom:0;}
+.advisor-overlay{ position:absolute; left:0; right:0; top:0; bottom:0;
+background-image: url('images/graphic.jpg');}
 .heading h1,
 .heading h2		{ margin-bottom:10px}
 .img-shadow{-webkit-box-shadow: -10px 10px 0px 0px rgba(226,228,233,1);-moz-box-shadow: -10px 10px 0px 0px rgba(226,228,233,1);box-shadow: -10px 10px 0px 0px rgba(226,228,233,1);}
@@ -405,10 +406,11 @@ ALL SECTIONS
 .image-and-text-box .bordered-thumb:before{ position:absolute; left:5px; right:5px; top:5px; bottom:5px; border:1px solid #fff; content:"";}
 .image-and-text-box .bordered-thumb img{ width:100%; height: 280px;}
 .image-and-text-box p{ margin-bottom:30px;}
-.funfacts{ background:url(../images/funfact-bg.jpg) no-repeat center 0; height:397px; position:relative; margin-bottom:-117px; z-index:100;}
+.funfacts{ background:url(../images/black.jpg); height:397px; position:relative; margin-bottom:-117px; z-index:100;}
 .funfacts h2{ margin-bottom:0;}
 .funfacts .funfacts-inner{ padding:75px 40px 0; position:relative;}
-.funfacts .advisor-overlay{ background:rgba(255,255,255,0.85);}
+.funfacts .advisor-overlay{ background:#ddd;
+border: 2px solid #09A223;}
 .funfacts .counter{ position:relative;}
 .funfacts .counter:after{ content:""; position:absolute; right: -34px;top: 23px; width:24px; height:72px; background:url(../images/slash.png) no-repeat 0 0;}
 .funfacts .counter span{ font-size:75px; font-weight:600;line-height: normal;}
@@ -433,9 +435,10 @@ ALL SECTIONS
 .services.highlighted .owl-item .service-box{ margin:0; color:#fff; border:0;}
 .services.highlighted .owl-item .service-box h4{ color:#fff;}
 .image-list-classic li{ float:left; list-style:none; position:relative; z-index:2;}
-.image-list-classic li:nth-child(2){ float: right;margin: -165px 0 0; z-index:1;}
+.image-list-classic li:nth-child(2){ float: right;margin: -165px 0 0; z-index:3;}
 @media (min-width: 992px){
-.image-list-classic li img{ max-width:359px; height:386px;}
+.image-list-classic li img{ max-width:359px; height:386px;
+}
 .image-list-classic li:nth-child(2) img{ max-width:402px; height:281px;}
 }
 .toggle { margin-bottom:12px;}
